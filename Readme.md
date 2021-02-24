@@ -9,3 +9,12 @@ sudo docker container run -it -v /home/b0mtrady/tools:$HOME --privileged -p 3333
 run JLink for HiFive1_RevB: 
 
 /usr/bin/JLinkGDBServer -device FE310 -if JTAG -speed 4000 -port 3333 -nogui
+
+
+Build Application:
+
+west build -b hifive1_revb blinky
+
+Run application (in build): 
+
+west flash 
