@@ -1,6 +1,6 @@
 set up JLink in mounted volume
 
-dkpg -i JLINK.deb
+dpkg -i JLINK.deb
 
 Run container in priveileged mode to get usb mounted to container from microprocessor 
 
