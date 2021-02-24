@@ -1,4 +1,4 @@
-set up JLink in mounted volume
+set up [JLink Software and Documentation package](https://www.segger.com/downloads/jlink/) in mounted volume
 
 dpkg -i JLINK.deb
 
